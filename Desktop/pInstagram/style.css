@@ -1,0 +1,180 @@
+
+
+   
+
+
+
+body {
+    background-color: rgb(253, 249, 249);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+   
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.instagram-phone img {
+    height: 45rem;
+}
+
+.insta-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.entrar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.formulario label {
+    display:block;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.user {
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #9b989b;
+    background-color: rgb(253, 249, 249);
+    color: rgb(161, 161, 161);
+    width: 250px;
+    border-radius: 3px;
+}
+
+.botão {
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #9b989b;
+    background-color: rgb(156, 166, 253);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.input {
+    width: 100%;
+}
+
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.group1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+}
+
+.Facebook {
+    color: rgb(3, 111, 184);
+    padding-left: 10px;
+}
+
+.face {
+    width: 15px;
+}
+
+.group-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Senha {
+    color: rgb(3, 111, 184);
+    margin-top: 5px;
+}
+
+.cadastrar {
+    color: #0095f6;
+    padding: 5px;
+   
+}
+
+.baixe-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.loja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.android {
+    width: 150px;
+    padding: 5px;
+}
+
+.apple {
+    width: 150px;
+    padding: 5px;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .instagram {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram {
+        width: 90%;
+    }
+    .instagram-phone {
+        display: none;
+    }
+    .entrar {
+        width: 100%;
+    }
+}
